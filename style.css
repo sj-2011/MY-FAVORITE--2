@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 30%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet, purple, grey, #1497a6, #0bba7d, #83d624, #ed7811, #e60e88, #310a63);
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-shadow: 0 0 3px black, 0 0 5px green;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
